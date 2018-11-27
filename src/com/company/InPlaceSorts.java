@@ -28,7 +28,7 @@ public class InPlaceSorts {
                 i++;
                 temp = arr[j];
                 arr[i] = arr[j];
-                arr[j] = arr[temp];
+                arr[j] = temp;
             }
         }
         temp = arr[right];
