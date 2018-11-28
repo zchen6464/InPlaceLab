@@ -1,21 +1,4 @@
-package com.company;
-
-import java.util.Arrays;
-
-public class InPlaceSorts {
-    
-    public static void quickSort(int[] arr, int left, int right)
-    {
-        if(left < right)
-        {
-            int pivot = partition(arr,left,right);
-
-            quickSort(arr,left,pivot - 1);
-            quickSort(arr,pivot + 1, right);
-        }
-    }
-
-    public static int partition(int[] arr, int left, int right)
+right)
     {
         int pivot = arr[right];
         int i = left - 1;
@@ -50,8 +33,6 @@ public class InPlaceSorts {
                     arr[i-1] = arr[i];
                     arr[i] = temp;
                     swap++;
-
-                    System.out.println(Arrays.toString(arr));
                 }
             }
         }
@@ -72,7 +53,7 @@ public class InPlaceSorts {
                 }
             }
         }
-            //System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
     }
     public static void selctionSort(double[] arr)
     {
