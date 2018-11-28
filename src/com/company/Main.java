@@ -10,6 +10,6 @@ public class Main {
         InPlaceSorts.insertionSort(test1);
         InPlaceSorts.selctionSort(test2);
         InPlaceSorts.bubbleSort(test3);
-        InPlaceSorts.quickSort(test1);
+        InPlaceSorts.quickSort(test1,0,4);
     }
 }
