@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class InPlaceSorts {
     
-    public void quickSort(int[] arr, int left, int right)
+    public static void quickSort(int[] arr, int left, int right)
     {
         if(left < right)
         {
@@ -15,7 +15,7 @@ public class InPlaceSorts {
         }
     }
 
-    public int partition(int[] arr, int left, int right)
+    public static int partition(int[] arr, int left, int right)
     {
         int pivot = arr[right];
         int i = left - 1;
