@@ -36,7 +36,6 @@ public class InPlaceSorts {
         arr[i+1] = temp;
         return (i+1);
     }
-}
 
     public static void bubbleSort(String[] arr)
     {
