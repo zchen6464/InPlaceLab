@@ -3,8 +3,7 @@ package com.company;
 import java.util.Arrays;
 
 public class InPlaceSorts {
-    public class QuickSort
-{
+    
     public void quickSort(int[] arr, int left, int right)
     {
         if(left < right)
